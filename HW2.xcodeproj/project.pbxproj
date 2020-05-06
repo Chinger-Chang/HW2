@@ -7,68 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B5EA0C5244603D100C2315D /* HouseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EA0C4244603D100C2315D /* HouseDetail.swift */; };
+		4B1297912446A93B00EFDA37 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1297902446A93B00EFDA37 /* AppView.swift */; };
+		4B1297952446B56600EFDA37 /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1297942446B56600EFDA37 /* CharacterDetail.swift */; };
+		4B24882D24506C3F00F1834E /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24882C24506C3F00F1834E /* CharacterList.swift */; };
 		4B75EF87243F554600349237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B75EF86243F554600349237 /* AppDelegate.swift */; };
 		4B75EF89243F554600349237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B75EF88243F554600349237 /* SceneDelegate.swift */; };
-		4B75EF8C243F554600349237 /* HW2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B75EF8A243F554600349237 /* HW2.xcdatamodeld */; };
 		4B75EF8E243F554600349237 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B75EF8D243F554600349237 /* ContentView.swift */; };
 		4B75EF90243F554900349237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B75EF8F243F554900349237 /* Assets.xcassets */; };
 		4B75EF93243F554900349237 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B75EF92243F554900349237 /* Preview Assets.xcassets */; };
 		4B75EF96243F554900349237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B75EF94243F554900349237 /* LaunchScreen.storyboard */; };
-		4B75EFA1243F554900349237 /* HW2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B75EFA0243F554900349237 /* HW2Tests.swift */; };
-		4B75EFAC243F554900349237 /* HW2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B75EFAB243F554900349237 /* HW2UITests.swift */; };
+		4B75EFBE243F623200349237 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B75EFBD243F623200349237 /* Movie.swift */; };
+		4B75EFC2243F62F000349237 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B75EFC1243F62F000349237 /* MovieList.swift */; };
+		4B75EFC4243F646E00349237 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B75EFC3243F646E00349237 /* MovieDetail.swift */; };
+		4B91341C2451341D001A2F68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B91341B2451341D001A2F68 /* HomeView.swift */; };
+		4B9717D5245B01180005CBED /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9717D4245B01180005CBED /* MusicView.swift */; };
+		4B9717D9245B05470005CBED /* Hedwig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B9717D8245B05470005CBED /* Hedwig.mp3 */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4B75EF9D243F554900349237 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B75EF7B243F554600349237 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B75EF82243F554600349237;
-			remoteInfo = HW2;
-		};
-		4B75EFA8243F554900349237 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B75EF7B243F554600349237 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B75EF82243F554600349237;
-			remoteInfo = HW2;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4B75EF83243F554600349237 /* HW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5EA0C4244603D100C2315D /* HouseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetail.swift; sourceTree = "<group>"; };
+		4B1297902446A93B00EFDA37 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		4B1297942446B56600EFDA37 /* CharacterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
+		4B24881D2450626200F1834E /* HW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B24882C24506C3F00F1834E /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		4B5FCA622462D44400126F79 /* HW2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HW2.entitlements; sourceTree = "<group>"; };
 		4B75EF86243F554600349237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B75EF88243F554600349237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B75EF8B243F554600349237 /* HW2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HW2.xcdatamodel; sourceTree = "<group>"; };
 		4B75EF8D243F554600349237 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B75EF8F243F554900349237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B75EF92243F554900349237 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B75EF95243F554900349237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B75EF97243F554900349237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B75EF9C243F554900349237 /* HW2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B75EFA0243F554900349237 /* HW2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2Tests.swift; sourceTree = "<group>"; };
-		4B75EFA2243F554900349237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B75EFA7243F554900349237 /* HW2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B75EFAB243F554900349237 /* HW2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2UITests.swift; sourceTree = "<group>"; };
-		4B75EFAD243F554900349237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B75EFBD243F623200349237 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		4B75EFC1243F62F000349237 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		4B75EFC3243F646E00349237 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		4B91341B2451341D001A2F68 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4B9717D4245B01180005CBED /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		4B9717D8245B05470005CBED /* Hedwig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hedwig.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4B75EF80243F554600349237 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B75EF99243F554900349237 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B75EFA4243F554900349237 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,32 +62,30 @@
 			isa = PBXGroup;
 			children = (
 				4B75EF85243F554600349237 /* HW2 */,
-				4B75EF9F243F554900349237 /* HW2Tests */,
-				4B75EFAA243F554900349237 /* HW2UITests */,
-				4B75EF84243F554600349237 /* Products */,
+				4B24881D2450626200F1834E /* HW2.app */,
 			);
-			sourceTree = "<group>";
-		};
-		4B75EF84243F554600349237 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4B75EF83243F554600349237 /* HW2.app */,
-				4B75EF9C243F554900349237 /* HW2Tests.xctest */,
-				4B75EFA7243F554900349237 /* HW2UITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4B75EF85243F554600349237 /* HW2 */ = {
 			isa = PBXGroup;
 			children = (
+				4B5FCA622462D44400126F79 /* HW2.entitlements */,
+				4B75EF8F243F554900349237 /* Assets.xcassets */,
+				4B9717D8245B05470005CBED /* Hedwig.mp3 */,
 				4B75EF86243F554600349237 /* AppDelegate.swift */,
 				4B75EF88243F554600349237 /* SceneDelegate.swift */,
 				4B75EF8D243F554600349237 /* ContentView.swift */,
-				4B75EF8F243F554900349237 /* Assets.xcassets */,
+				4B75EFBD243F623200349237 /* Movie.swift */,
+				4B75EFC1243F62F000349237 /* MovieList.swift */,
+				4B1297942446B56600EFDA37 /* CharacterDetail.swift */,
+				4B1297902446A93B00EFDA37 /* AppView.swift */,
+				4B9717D4245B01180005CBED /* MusicView.swift */,
+				4B24882C24506C3F00F1834E /* CharacterList.swift */,
+				4B91341B2451341D001A2F68 /* HomeView.swift */,
+				4B75EFC3243F646E00349237 /* MovieDetail.swift */,
+				3B5EA0C4244603D100C2315D /* HouseDetail.swift */,
 				4B75EF94243F554900349237 /* LaunchScreen.storyboard */,
 				4B75EF97243F554900349237 /* Info.plist */,
-				4B75EF8A243F554600349237 /* HW2.xcdatamodeld */,
 				4B75EF91243F554900349237 /* Preview Content */,
 			);
 			path = HW2;
@@ -119,24 +97,6 @@
 				4B75EF92243F554900349237 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4B75EF9F243F554900349237 /* HW2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				4B75EFA0243F554900349237 /* HW2Tests.swift */,
-				4B75EFA2243F554900349237 /* Info.plist */,
-			);
-			path = HW2Tests;
-			sourceTree = "<group>";
-		};
-		4B75EFAA243F554900349237 /* HW2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				4B75EFAB243F554900349237 /* HW2UITests.swift */,
-				4B75EFAD243F554900349237 /* Info.plist */,
-			);
-			path = HW2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,44 +116,8 @@
 			);
 			name = HW2;
 			productName = HW2;
-			productReference = 4B75EF83243F554600349237 /* HW2.app */;
+			productReference = 4B24881D2450626200F1834E /* HW2.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4B75EF9B243F554900349237 /* HW2Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B75EFB3243F554900349237 /* Build configuration list for PBXNativeTarget "HW2Tests" */;
-			buildPhases = (
-				4B75EF98243F554900349237 /* Sources */,
-				4B75EF99243F554900349237 /* Frameworks */,
-				4B75EF9A243F554900349237 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B75EF9E243F554900349237 /* PBXTargetDependency */,
-			);
-			name = HW2Tests;
-			productName = HW2Tests;
-			productReference = 4B75EF9C243F554900349237 /* HW2Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4B75EFA6243F554900349237 /* HW2UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B75EFB6243F554900349237 /* Build configuration list for PBXNativeTarget "HW2UITests" */;
-			buildPhases = (
-				4B75EFA3243F554900349237 /* Sources */,
-				4B75EFA4243F554900349237 /* Frameworks */,
-				4B75EFA5243F554900349237 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B75EFA9243F554900349237 /* PBXTargetDependency */,
-			);
-			name = HW2UITests;
-			productName = HW2UITests;
-			productReference = 4B75EFA7243F554900349237 /* HW2UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,14 +132,6 @@
 					4B75EF82243F554600349237 = {
 						CreatedOnToolsVersion = 11.1;
 					};
-					4B75EF9B243F554900349237 = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = 4B75EF82243F554600349237;
-					};
-					4B75EFA6243F554900349237 = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = 4B75EF82243F554600349237;
-					};
 				};
 			};
 			buildConfigurationList = 4B75EF7E243F554600349237 /* Build configuration list for PBXProject "HW2" */;
@@ -227,13 +143,11 @@
 				Base,
 			);
 			mainGroup = 4B75EF7A243F554600349237;
-			productRefGroup = 4B75EF84243F554600349237 /* Products */;
+			productRefGroup = 4B75EF7A243F554600349237;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4B75EF82243F554600349237 /* HW2 */,
-				4B75EF9B243F554900349237 /* HW2Tests */,
-				4B75EFA6243F554900349237 /* HW2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,23 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9717D9245B05470005CBED /* Hedwig.mp3 in Resources */,
 				4B75EF96243F554900349237 /* LaunchScreen.storyboard in Resources */,
 				4B75EF93243F554900349237 /* Preview Assets.xcassets in Resources */,
 				4B75EF90243F554900349237 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B75EF9A243F554900349237 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B75EFA5243F554900349237 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,43 +171,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B75EF8C243F554600349237 /* HW2.xcdatamodeld in Sources */,
+				4B75EFC2243F62F000349237 /* MovieList.swift in Sources */,
+				4B1297912446A93B00EFDA37 /* AppView.swift in Sources */,
 				4B75EF87243F554600349237 /* AppDelegate.swift in Sources */,
+				3B5EA0C5244603D100C2315D /* HouseDetail.swift in Sources */,
+				4B75EFBE243F623200349237 /* Movie.swift in Sources */,
+				4B91341C2451341D001A2F68 /* HomeView.swift in Sources */,
+				4B1297952446B56600EFDA37 /* CharacterDetail.swift in Sources */,
 				4B75EF8E243F554600349237 /* ContentView.swift in Sources */,
+				4B24882D24506C3F00F1834E /* CharacterList.swift in Sources */,
 				4B75EF89243F554600349237 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B75EF98243F554900349237 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B75EFA1243F554900349237 /* HW2Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B75EFA3243F554900349237 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B75EFAC243F554900349237 /* HW2UITests.swift in Sources */,
+				4B9717D5245B01180005CBED /* MusicView.swift in Sources */,
+				4B75EFC4243F646E00349237 /* MovieDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4B75EF9E243F554900349237 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B75EF82243F554600349237 /* HW2 */;
-			targetProxy = 4B75EF9D243F554900349237 /* PBXContainerItemProxy */;
-		};
-		4B75EFA9243F554900349237 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B75EF82243F554600349237 /* HW2 */;
-			targetProxy = 4B75EFA8243F554900349237 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4B75EF94243F554900349237 /* LaunchScreen.storyboard */ = {
@@ -438,7 +318,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HW2/HW2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"HW2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HW2/Info.plist;
@@ -448,6 +331,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-0657138.HW2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,7 +341,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HW2/HW2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"HW2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HW2/Info.plist;
@@ -467,88 +354,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-0657138.HW2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		4B75EFB4243F554900349237 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HW2Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-0657138.HW2Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW2.app/HW2";
-			};
-			name = Debug;
-		};
-		4B75EFB5243F554900349237 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HW2Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-0657138.HW2Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW2.app/HW2";
-			};
-			name = Release;
-		};
-		4B75EFB7243F554900349237 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HW2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-0657138.HW2UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HW2;
-			};
-			name = Debug;
-		};
-		4B75EFB8243F554900349237 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HW2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-0657138.HW2UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HW2;
 			};
 			name = Release;
 		};
@@ -573,38 +381,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B75EFB3243F554900349237 /* Build configuration list for PBXNativeTarget "HW2Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B75EFB4243F554900349237 /* Debug */,
-				4B75EFB5243F554900349237 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B75EFB6243F554900349237 /* Build configuration list for PBXNativeTarget "HW2UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B75EFB7243F554900349237 /* Debug */,
-				4B75EFB8243F554900349237 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4B75EF8A243F554600349237 /* HW2.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4B75EF8B243F554600349237 /* HW2.xcdatamodel */,
-			);
-			currentVersion = 4B75EF8B243F554600349237 /* HW2.xcdatamodel */;
-			path = HW2.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4B75EF7B243F554600349237 /* Project object */;
 }
